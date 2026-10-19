@@ -1,0 +1,52 @@
+/* Estilo básico da estrutura. O visual completo vem na issue "Identidade visual". */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.perfis {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.perfis button {
+  padding: 7px 14px;
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  background: #fff;
+  cursor: pointer;
+  font: inherit;
+}
+
+.perfis button.ativo {
+  background: #b3202a;
+  border-color: #b3202a;
+  color: #fff;
+}
+
+main {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+}
